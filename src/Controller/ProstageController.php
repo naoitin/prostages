@@ -48,7 +48,7 @@ class ProstageController extends AbstractController
                             <body><h1>Cette page affichera la liste des formations de l'IUT</h1></body></html>");*/
     }
     /**
-     * @Route("/stages/{id}", name="prostage_Stages")
+     * @Route("/stage/{id}", name="prostage_Stages")
      */
     //Route vers les stages
     public function indexStages($id)
